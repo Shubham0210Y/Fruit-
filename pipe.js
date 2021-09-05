@@ -9,8 +9,8 @@ class Pipe {
 
    this.body.addImage(pipeImg)
    this.body2.addImage(pipe2Img)
-   this.body.debug=true
-   this.body2.debug=true
+   this.body.debug=false
+   this.body2.debug=false
   
    this.body.setCollider("rectangle",0,-90,30,100  )
    this.body2.setCollider("rectangle",0,80,30,100  )
